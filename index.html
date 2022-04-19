@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
     </nav>
-    <h1>Sobre o Victor</h1>
+    <h1 class="center">Sobre o Victor</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi beatae pariatur, quidem, harum officiis voluptate eum autem iste sint sequi. Voluptatibus, alias amet excepturi iste obcaecati laborum et architecto quam aut quibusdam quis totam numquam quisquam! Dolor et molestiae, optio eos quisquam facilis. Laborum deleniti esse suscipit sit quaerat.
+    <div class="container">
+      <div class="p-30">
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi
+          beatae pariatur, quidem, harum officiis voluptate eum autem iste sint
+          sequi. Voluptatibus, alias amet excepturi iste obcaecati laborum et
+          architecto quam aut quibusdam quis totam numquam quisquam! Dolor et
+          molestiae, optio eos quisquam facilis. Laborum deleniti esse suscipit
+          sit quaerat.
+        </p>
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi
+          beatae pariatur, quidem, harum officiis voluptate eum autem iste sint
+          sequi. Voluptatibus, alias amet excepturi iste obcaecati laborum et
+          architecto quam aut quibusdam quis totam numquam quisquam! Dolor et
+          molestiae, optio eos quisquam facilis. Laborum deleniti esse suscipit
+          sit quaerat.
+        </p>
+      </div>
+      <div>
+        <img
+          class="br-50 wh-300 p-30"
+          src="assets/Victor.jpeg"
+          width="150px"
+          alt="Foto do criador deste conteudo"
+        />
+      </div>
+    </div>
 
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi beatae pariatur, quidem, harum officiis voluptate eum autem iste sint sequi. Voluptatibus, alias amet excepturi iste obcaecati laborum et architecto quam aut quibusdam quis totam numquam quisquam! Dolor et molestiae, optio eos quisquam facilis. Laborum deleniti esse suscipit sit quaerat.
+    <h2 class="center">Um video legal!!</h2>
+    <div class="container mb-60">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/LOdF0K4S0oY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr>
+    <div>
+        <div class="container" id="social-media">
+            <a href="https://github.com/victormreis" target="_blank"><img class="tm-logo p-30" src="assets/github.png" alt="Logo do Github"></a>
+            <a href="https://www.linkedin.com/in/victorm-reis/" target="_blank"><img class="tm-logo p-30" src="assets/logotipo-do-linkedin.png" alt="Logo do Linkedin"></a>
+        </div>
+        <footer>
+            <p class="center">Todos os direitos reservados: Victor M. Reis &copy;</p>
+        </footer>
+    </div>
 
-    </p>
-    <img src="assets/Victor.jpeg" width="150px" alt="Foto do criador deste conteudo">
-
-    <h2>Um video legal!!</h2>
-    <iframe width="460" 
-    height="315" 
-    src="https://www.youtube.com/embed/LOdF0K4S0oY" title="YouTube video player" 
-    frameborder="1" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</body>
+  </body>
 </html>
