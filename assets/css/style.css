@@ -1,7 +1,12 @@
 /* Estilos da página index.html */
 
+* {
+  margin: 0;
+  padding: 0;  
+}
+
 body {
-    background-color: cornsilk;
+  background-color: cornsilk;
 }
 
 .center {
@@ -19,7 +24,10 @@ body {
   .container {
     flex-flow: column-reverse;
   }
-  #social-media{
+  #contato {
+    flex-flow: column;
+  }
+  #social-media {
     flex-flow: row;
   }
 }
@@ -70,9 +78,22 @@ body {
   margin-bottom: 50px;
 }
 
-
 /* Estilos da página de contato */
 
-.ml-50{
-    margin-left: 50px;
+.ml-50 {
+  margin-left: 50px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid red;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+footer a img{
+  
 }
